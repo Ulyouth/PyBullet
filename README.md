@@ -62,7 +62,7 @@ Where:
 
 - **'list_rst' option:** Useful when doing persistent tasks (e.g. auction websites, air tickets etc.)
 
-- **'threads' option:** Avoid running to many threads in parallel, as this can overload the servers and/or trigger ddos-protection. If running in test mode, this option is ignored (always single-threaded). Also keep in mind that using 'print' in a multi-threaded environment is not recommended.
+- **'threads' option:** Avoid running too many threads in parallel, as this can overload the servers and/or trigger ddos-protection. If running in test mode, this option is ignored (always single-threaded). Also keep in mind that using 'print' in a multi-threaded environment is not recommended.
 
 - **'align' option:** This sets every list array to a fixed minimum number of elements. Useful when dealing with lists with different formats.
 
