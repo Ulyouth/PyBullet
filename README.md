@@ -91,40 +91,36 @@ All script files should contain an entrypoint function with the following protot
 	def chkMain(ss, test, rst, captcha, data):
 
 Where:
-ss       is either a requests' session object or a selenium webdriver object, depending on the value of 'lib'.
-test     is an integer indicating if running in test mode.
-rst      is an integer indicating if the session was reset since the last call.
-captcha  is a string containing the 2Captcha API key.
-data     is either a string containing the current list's item or an array of strings containing the all the elements in the current list's item. For lists containing        different possible formats, one should use isinstance() to determine if 'data' is a string or an array.
+
+- ss       is either a requests' session object or a selenium webdriver object, depending on the value of 'lib'.
+- test     is an integer indicating if running in test mode.
+- rst      is an integer indicating if the session was reset since the last call.
+- captcha  is a string containing the 2Captcha API key.
+- data     is either a string containing the current list's item or an array of strings containing the all the elements in the current list's item. For lists containing        different possible formats, one should use isinstance() to determine if 'data' is a string or an array.
 
 The return value of 'chkMain' should be in the following format:
 
 	[r, msg]
 
 Where:
-r    is an integer indicating the resulting status of the procedure.
-msg  is a message to be displayed by the main procedure.
+
+- r    is an integer indicating the resulting status of the procedure.
+- msg  is a message to be displayed by the main procedure.
 
 One should also assure that the value of 'r' complies with the following ranges:
 
-r <= -200:              Unhandled exception. Procedure will terminate.
-r < 0 and r > -100:     An error has occurred. Retry the same list item.
-r <= -100 and r > -200: Same as above, but reserved for internal errors.
-r >= 0 and r < 100:     Success. List item's verification result is ambiguous
-                        or simply not relevant (displayed in yellow).
-r >= 100 and r < 200:   Success. List item succeed verification (displayed in
-                        green).
-r >= 200 and r < 300:   Success. List item failed verification (displayed in
-                        red).
+- r <= -200:              Unhandled exception. Procedure will terminate.
+- r < 0 and r > -100:     An error has occurred. Retry the same list item.
+- r <= -100 and r > -200: Same as above, but reserved for internal errors.
+- r >= 0 and r < 100:     Success. List item's verification result is ambiguous or simply not relevant (displayed in yellow).
+- r >= 100 and r < 200:   Success. List item succeed verification (displayed in green).
+- r >= 200 and r < 300:   Success. List item failed verification (displayed in red).
 
-Apart from the syntax explained above, the scripts can be considered normal
-Python files, so anything you would normally do in Python can also be done 
-in the scripts.
-
+Apart from the syntax explained above, the scripts can be considered normal Python files, so anything you would normally do in Python can also be done in the scripts.
 
 # API DOCUMENTATION
 
 
 # CHANGELOG
-v1.0.0 [18.09.2020]
-	- Original release.
+## v1.0.0 [18.09.2020]: 
+- Original release.
