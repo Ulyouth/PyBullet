@@ -55,35 +55,25 @@ Where:
 - alert      A sound file to be played when a match is found.
 
 # COMMENTS
-'name' option:
-This should be the name of the folder containing the script (with the same name) to be executed. The script's folder is also added to the sys.path list before being executed, so you can also do file operations assuming they are saved at the same path of your scripts. 
+- 'name' option: This should be the name of the folder containing the script (with the same name) to be executed. The script's folder is also added to the sys.path list before being executed, so you can also do file operations assuming they are saved at the same path of your scripts. 
 
-'lib' option:
-Here you can choose the type of session that will be passed to the script selected. This can be 'socks' if you wish to all operations in a raw socket fashion, 'requests' to do the operations in a raw http way or chrome/firefox in case you also need browser emulation to be in place. Browser emulation is necessary when one needs to do operations that cannot be done without javascript (e.g. querying js-generated fingerprints or bypassing ddos-protection mechanisms). However, keep in mind that 'requests' is faster and should always be selected otherwise.
+- 'lib' option: Here you can choose the type of session that will be passed to the script selected. This can be 'socks' if you wish to all operations in a raw socket fashion, 'requests' to do the operations in a raw http way or chrome/firefox in case you also need browser emulation to be in place. Browser emulation is necessary when one needs to do operations that cannot be done without javascript (e.g. querying js-generated fingerprints or bypassing ddos-protection mechanisms). However, keep in mind that 'requests' is faster and should always be selected otherwise.
    
-'test' option:
-While developing your own scripts, it is recommended to toogle the test mode on. This ensures that only the 1st item in your list is passed to the script, avoiding the need to stop execution every time a new feature is added, making script development faster. Besides that, it can also be used by scripts as a way of knowing when to be 'verbose', which is useful when doing troubleshooting. Moreover, when running with browser emulation in test mode, the browser's window will also be displayed.
+- 'test' option: While developing your own scripts, it is recommended to toogle the test mode on. This ensures that only the 1st item in your list is passed to the script, avoiding the need to stop execution every time a new feature is added, making script development faster. Besides that, it can also be used by scripts as a way of knowing when to be 'verbose', which is useful when doing troubleshooting. Moreover, when running with browser emulation in test mode, the browser's window will also be displayed.
 
-'ss_rst' option:
-This option determines whether to create a new session for every list item. It should be off when one wishes to do operations that should not be repeated for every list item (e.g. login procedures).
+- 'ss_rst' option: This option determines whether to create a new session for every list item. It should be off when one wishes to do operations that should not be repeated for every list item (e.g. login procedures).
 
-'list_rst' option:
-Useful when doing persistent tasks (e.g. auction websites, air tickets etc.)
+- 'list_rst' option: Useful when doing persistent tasks (e.g. auction websites, air tickets etc.)
 
-'threads' option:
-Avoid running to many threads in parallel, as this can overload the servers and/or trigger ddos-protection. If running in test mode, this option is ignored (always single-threaded). Also keep in mind that using 'print' in a multi-threaded environment is not recommended.
+- 'threads' option: Avoid running to many threads in parallel, as this can overload the servers and/or trigger ddos-protection. If running in test mode, this option is ignored (always single-threaded). Also keep in mind that using 'print' in a multi-threaded environment is not recommended.
 
-'align' option:
-This sets every list array to a fixed minimum number of elements. Useful when dealing with lists with different formats.
+- 'align' option: This sets every list array to a fixed minimum number of elements. Useful when dealing with lists with different formats.
 
-'ua_mtd' & 'px_mtd' options:
-The 'list' value makes the application iterate the list and restart from the beginning when all the items have already been used. The 'random' value, as the name suggests, chooses randomly items from the list.
+- 'ua_mtd' & 'px_mtd' options: The 'list' value makes the application iterate the list and restart from the beginning when all the items have already been used. The 'random' value, as the name suggests, chooses randomly items from the list.
 
-'captcha' option:
-More info at: https://2captcha.com/
+- 'captcha' option: More info at: https://2captcha.com/
    
-'alert' option:
-This option is still not implemented but has been already reserved for future use.
+- 'alert' option: This option is still not implemented but has been already reserved for future use.
 
 # SCRIPT FORMAT
 All script files should contain an entrypoint function with the following prototype:
@@ -122,5 +112,5 @@ Apart from the syntax explained above, the scripts can be considered normal Pyth
 
 
 # CHANGELOG
-## v1.0.0 [18.09.2020]: 
+## v1.0.0 [15.10.2020]
 - Original release.
