@@ -42,7 +42,7 @@ Where:
 - **list_wait:** Time (in s) to wait between every list item.
 - **err_wait:** Time (in s) to wait after an error occurs.
 - **list:** File containing the list to be checked.
-- **delim:** List's delimiter
+- **delim:** List's delimiter.
 - **align:** Number elements in every list item.
 - **agents:** File containing a list of User-Agents.
 - **ua_mtd:** How User-Agents should be selected. Options: `'list' or 'random'`
