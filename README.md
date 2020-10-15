@@ -82,7 +82,7 @@ Where:
 - **test** is an integer indicating if running in test mode.
 - **rst** is an integer indicating if the session was reset since the last call.
 - **captcha** is a string containing the 2Captcha API key.
-- **data** is either a string containing the current list's item or an array of strings containing the all the elements in the current list's item. For lists containing        different possible formats, one should use isinstance() to determine if 'data' is a string or an array.
+- **data** is either a string containing the current list's item or an array of strings containing all the elements in the current list's item. For lists containing        different possible formats, one should use isinstance() to determine if 'data' is a string or an array.
 
 The return value of 'chkMain' should be in the following format:
 
