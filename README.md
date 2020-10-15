@@ -30,14 +30,15 @@ Where:
         
 The syntax of the CSV file is:
 
-<[path  lib  test  ss_rst  list_rst  threads  list_wait  err_wait  list  delim  align  agents  ua_mtd  proxy  px_mtd  captcha  alert]>
+`[path  lib  test  ss_rst  list_rst  threads  list_wait  err_wait  list  delim  align  agents  ua_mtd  proxy  px_mtd  captcha  alert]`
 
 Where:
 - **path:** The script's path.
-- **lib:** Module to be used. Can be blank or the following options: >['socks', 'requests', 'chrome' or 'firefox']
-- **test:** Toogles test mode. [0=off; 1=on]
-- **ss_rst:** Toogles session reset between list items. [0=off; 1=on]
-- **list_rst:** Toogles list repetition when done. [0=off; 1=on]
+- **lib:** Module to be used. Can be blank or the following options: 
+	`['socks', 'requests', 'chrome' or 'firefox']`
+- **test:** Toogles test mode. `[0=off; 1=on]`
+- **ss_rst:** Toogles session reset between list items. `[0=off; 1=on]`
+- **list_rst:** Toogles list repetition when done. `[0=off; 1=on]`
 - **threads:** Number of threads to run in parallel.
 - **list_wait:** Time (in s) to wait between every list item.
 - **err_wait:** Time (in s) to wait after an error occurs.
@@ -45,10 +46,8 @@ Where:
 - **delim:** List's delimiter
 - **align:** Number elements in every list item.
 - **agents:** File containing a list of User-Agents.
-- **ua_mtd:** How User-Agents should be selected. Options: 
-             ['list' or 'random']
-- **proxy:** File containing a list of proxies. Format: 
-             `<protocol>://<ip>:<port>`
+- **ua_mtd:** How User-Agents should be selected. Options: `['list' or 'random']`
+- **proxy:** File containing a list of proxies. Format: `<protocol>://<ip>:<port>`
 - **px_mtd:** How proxies should be selected. Same options as 'ua_mtd'.
 - **captcha:** A 2Captcha API key.
 - **alert:** A sound file to be played when a match is found.
