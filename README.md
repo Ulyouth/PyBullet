@@ -24,14 +24,15 @@ PyBullet offers a toolset designed to make it easier the task of querying the st
 # USAGE
 pybullet.py [CSV] [SCR]
 
-Where:
+## Where:
 CSV  is a .csv file containing the script's parameters. Syntax below.
 SCR  is the path of the script to be executed.
         
 The syntax of the CSV file is:  
-	[path  lib  test  ss_rst  list_rst  threads  list_wait  err_wait  list  delim  align  agents  ua_mtd  proxy  px_mtd  captcha  alert]
+[path  lib  test  ss_rst  list_rst  threads  list_wait  err_wait  list  delim  align  agents  ua_mtd  proxy  px_mtd  captcha  alert]
 
 Where:
+
 path       The script's path.
 lib        Module to be used. Can be blank or the following options:
            ['socks', 'requests', 'chrome' or 'firefox']
