@@ -1,5 +1,6 @@
 # PyBullet
 An open-source Python framework for web automation.
+
 Copyright (c) 2020 andre738 (https://github.com/andre798)
 
 # LICENSE
