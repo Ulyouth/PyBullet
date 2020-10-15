@@ -30,7 +30,7 @@ Where:
         
 The syntax of the CSV file is:
 
-[path  lib  test  ss_rst  list_rst  threads  list_wait  err_wait  list  delim  align  agents  ua_mtd  proxy  px_mtd  captcha  alert]
+[path    lib    test    ss_rst    list_rst    threads    list_wait    err_wait    list    delim    align    agents    ua_mtd    proxy    px_mtd    captcha    alert]
 
 Where:
 - path       The script's path.
