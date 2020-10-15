@@ -22,7 +22,7 @@ PyBullet offers a toolset designed to make it easier the task of querying the st
   See: https://chromedriver.chromium.org/downloads
 
 # USAGE
-**pybullet.py** **[CSV]** **[SCR]**
+`pybullet.py [CSV] [SCR]`
 
 Where:
 - **CSV** is a .csv file containing the script's parameters. Syntax below.
