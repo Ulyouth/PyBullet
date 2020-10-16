@@ -4,7 +4,7 @@
 NAME:    github-chr.py
 AUTHOR:  andre798
 VERSION: 1.0.0
-DATE:    13.10.2020 
+DATE:    15.10.2020 
 DESC:    A PyBullet-based script to check which GitHub logins are valid
          using selenium chromium library.
 """
