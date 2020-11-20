@@ -1,7 +1,7 @@
 # PyBullet
 An open-source Python framework for web automation.
 
-Copyright (c) 2020 andre738 (https://github.com/andre798)
+Copyright (c) 2020 Ulyouth (https://github.com/Ulyouth)
 
 # DESCRIPTION
 PyBullet offers a toolset designed to make it easier the task of querying the status of list-generated data on servers/websites using third-party scripts. This includes options for multi-threading, User-Agent/Proxy selection, captcha solving etc. PyBullet is intended to be a more programming-oriented alternative to other currently available solutions (e.g. OpenBullet).
