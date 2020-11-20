@@ -97,7 +97,7 @@ One should also assure that the value of 'r' complies with the following ranges:
 Apart from the syntax explained above, the scripts can be considered normal Python files, so anything you would normally do in Python can also be done in the scripts.
 
 # API DOCUMENTATION
-https://github.com/andre798/PyBullet/wiki
+https://github.com/Ulyouth/PyBullet/wiki
 
 # CHANGELOG
 ## v1.0.0 [15.10.2020]
