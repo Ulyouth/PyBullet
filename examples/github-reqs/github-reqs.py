@@ -2,7 +2,7 @@
 
 """
 NAME:    github-reqs.py
-AUTHOR:  andre798
+AUTHOR:  Ulyouth
 VERSION: 1.0.0
 DATE:    15.10.2020 
 DESC:    A PyBullet-based script to check which GitHub logins are valid
