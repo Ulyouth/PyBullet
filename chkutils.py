@@ -2,7 +2,7 @@
 
 """
 NAME:    chkutils.py
-AUTHOR:  andre798
+AUTHOR:  Ulyouth
 VERSION: 1.0.0
 DATE:    15.10.2020 
 DESC:    A class containing auxiliary tools to be used by pybullet.py and 
