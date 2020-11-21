@@ -2,7 +2,7 @@
 
 """
 NAME:    qlist.py
-AUTHOR:  andre738
+AUTHOR:  Ulyouth
 VERSION: 1.0.0
 DATE:    15.10.2020 
 DESC:    A class for thread synchronization using queues. 
