@@ -2,7 +2,7 @@
 
 """
 NAME:    pybullet.py
-AUTHOR:  andre798
+AUTHOR:  Ulyouth
 VERSION: 1.0.0
 DATE:    15.10.2020 
 DESC:    A framework to extract data from lists and query their status on 
