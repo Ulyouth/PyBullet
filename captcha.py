@@ -2,7 +2,7 @@
 
 """
 NAME:    captcha.py
-AUTHOR:  andre798
+AUTHOR:  Ulyouth
 VERSION: 1.0.0
 DATE:    15.10.2020 
 DESC:    A class for captcha decoding using 2Captcha API. 
